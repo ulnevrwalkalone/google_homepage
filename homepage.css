@@ -1,5 +1,47 @@
 div {margin: 0; padding: 0;}
 
-.google_search, .feeling_lucky{
-  position: relative; bottom: 
+.google_search{
+  position: fixed;
+  top: 55%;
+  left:45%;
+}
+
+.feeling_lucky{
+  position:fixed;
+  top: 55%;
+  left: 60%;
+}
+.Gsearch{
+  position: absolute;
+  top:50%;
+  left:35%;
+}
+
+.image{
+  position: absolute;
+  top:36%;
+  left:45%;
+}
+
+ul{
+    position: absolute;
+    right: 0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+
+  float: left;
+
+}
+li a{
+  display: block;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: black;
+}
+li a:hover{
+  text-decoration: underline;
 }
